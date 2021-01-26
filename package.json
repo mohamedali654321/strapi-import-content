@@ -1,0 +1,55 @@
+{
+  "name": "import-content",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@buffetjs/styles": "^3.3.3",
+    "buffetjs": "^1.0.6",
+    "content-type-parser": "^1.0.2",
+    "crypto": "^1.0.1",
+    "csv-parse": "^4.15.0",
+    "draft-js": "^0.11.7",
+    "formik": "^2.2.6",
+    "get-urls": "^10.0.0",
+    "knex": "<0.20.0",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "react": "^17.0.1",
+    "react-tooltip": "^4.2.13",
+    "request": "^2.88.2",
+    "rss-parser": "^3.10.0",
+    "simple-statistics": "^7.4.0",
+    "sqlite3": "5.0.0",
+    "strapi": "3.4.4",
+    "strapi-admin": "3.4.4",
+    "strapi-connector-bookshelf": "3.4.4",
+    "strapi-plugin-content-manager": "3.4.4",
+    "strapi-plugin-content-type-builder": "3.4.4",
+    "strapi-plugin-email": "3.4.4",
+    "strapi-plugin-upload": "3.4.4",
+    "strapi-plugin-users-permissions": "3.4.4",
+    "strapi-utils": "3.4.4",
+    "striptags": "^3.1.1",
+    "uuid": "^8.3.2",
+    "video-react": "^0.14.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "95e3b33d-bb5f-4499-b061-3d04619e6aad"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

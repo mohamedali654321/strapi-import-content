@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tests",
+  "info": {
+    "name": "test"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "string"
+    },
+    "pubDate": {
+      "type": "datetime"
+    }
+  }
+}
